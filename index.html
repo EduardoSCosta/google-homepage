@@ -6,37 +6,40 @@
     </head>
 
     <body>
-        <nav>
-            <div>
+        <nav id="nav-container">
+            <div id="nav-left">
                 <a href="#" >About</a>
                 <a href="#" >Store</a>
             </div>
-            <div>
+            <div id="nav-right">
                 <a href="#" >Gmail</a>
                 <a href="#" >Images</a>
                 <a href="#" ><img src="images/apps-logo.png" alt="Tools" id="tools"></a>
-                <button type="button">Sign In</button>
-            </div>
+                <button type="button" id="sign-in">Sign In</button>
+            </div id="nav-left">
         </nav>
-        <div>
-            <img src="images/google-logo.png" alt="Google Logo">
-            <br>
-            <form action="#" method="GET">
-                <input type="text" name="search">
-                <input type="image" src="images/keyboard-logo.png">
-                <input type="image" src="images/mic-logo.png" alt="Mic" id="mic">
-            </form>
-            <br>
-            <button type="button">Google Search</button>
-            <button type="button">I'm Feeling Lucky</button>
+        <div id="main-content">
+            <div id="google-logo">
+                <img src="images/google-logo.png" alt="Google Logo">
+            </div>
+            <div id="search-bar">
+                <img src="images/search-logo.png" alt="Search" id="searchicon">
+                <input type="text" name="search" id="search-input">
+                <img src="images/keyboard-logo.png" alt="Keyboard" id="keyboard">
+                <img src="images/mic-logo.png" alt="Microphone" id="mic">
+            </div>
+            <div class="button-container">
+                <button type="button" class="search-button">Google Search</button>
+                <button type="button" class="search-button">I'm Feeling Lucky</button>
+            </div>
         </div>
-        <footer>
-            <div>
+        <footer id="footer-container">
+            <div id="footer-left">
                 <a href="#" >Advertising</a>
                 <a href="#" >Business</a>
                 <a href="#" >How Search Works</a>
             </div>
-            <div>
+            <div id="footer-right">
                 <a href="#" >Privacy</a>
                 <a href="#" >Terms</a>
                 <a href="#" >Settings</a> 
